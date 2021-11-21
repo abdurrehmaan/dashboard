@@ -1,0 +1,53 @@
+.scheduler-tile {
+    width: 60%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.schedul-right-side{
+    width: 40%;
+    border-radius: 5px;
+
+}
+
+.tile1{
+    width: 400px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.tile2{
+    width: 400px;
+    height: 450px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.user2-image{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid var(--color-text);
+}
+.user2-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.profile{
+    background-color: var(--color-text);
+    color: white;
+    width:40%;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 0.9rem;
+}
+.profile-info{
+    background-color: white;
+    width: 60%;
+    border-radius: 5px;
+    padding: 5px;
+}
+.profile-time{
+    font-size: 0.9rem;
+    color:var(--color-text);
+}

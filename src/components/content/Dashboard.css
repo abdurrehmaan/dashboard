@@ -1,0 +1,179 @@
+.tile{
+    width: 330px;
+    height: 280px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.tile-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.tiles-bar{
+    margin: 10px;
+}
+.heading{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.side-dark-bar{
+    background-color: #17D570;
+    height: 70px;
+    width: 8px;
+    border-radius: 10px;
+}
+.number-value{
+    background-color: #05ce631f;
+    opacity: 0.7;
+    height: 70px;
+    width: 120px;
+    border-radius: 10px;
+    color: #17D570;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+.side-dark-bar1{
+    background-color: #1756C2;
+    height: 70px;
+    width: 8px;
+    border-radius: 10px;
+}
+.number-value1{
+    background-color: #1756c24d;
+    opacity: 0.7;
+    height: 70px;
+    width: 120px;
+    border-radius: 10px;
+    color: #1756C2;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+.side-dark-bar3{
+    background-color: #30A18E;
+    height: 70px;
+    width: 8px;
+    border-radius: 10px;
+}
+.number-value3{
+    background-color: #30a18e57;
+    opacity: 0.7;
+    height: 70px;
+    width: 120px;
+    border-radius: 10px;
+    color: #30A18E;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+.side-dark-bar4{
+    background-color: #EF7903;
+    height: 70px;
+    width: 8px;
+    border-radius: 10px;
+}
+.number-value4{
+    background-color: #ef790349;
+    opacity: 0.7;
+    height: 70px;
+    width: 120px;
+    border-radius: 10px;
+    color: #EF7903;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.rec-pay-title span{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.rec-pay-payment span{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text)
+}
+.payment-title{
+    width: 162px;
+}
+.payment-title span{
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+.payment-image{
+    position:relative;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 160px;
+}
+.payment-image img{
+    width: 100%;
+    height: 100%;
+}
+.appointment-tile{
+    width: 60%;
+    height: 280px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* Request */
+.request{
+    font-size: 0.8rem;
+}
+.viewall-count{
+    font-size: 1.4rem;
+    color: var(--color-text);
+    font-weight: 600;
+}
+.requrest1{
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid var(--color-text);
+    border-radius: 5px;
+    background-color: #F6F9F9;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.request-user{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.request-date{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.request-dis{
+    font-size: 0.9rem;
+}
+.user1-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--color-text);
+}
+.user1-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.appoint-table{
+    overflow-x: auto;
+}
+.appt-name{
+    text-decoration: none;
+    font-weight: 500;
+}
+.appt-time{
+    color: #17D570;
+    font-weight: 500;
+}
+.videoicon{
+    background-color: #17D570;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vid-icon{
+    color:#fff;
+    font-size: 2rem;
+}

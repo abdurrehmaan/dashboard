@@ -1,0 +1,13 @@
+.patients-detail{
+    width: 330px;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.patients-image{
+    width: 40%;
+}
+.request-user1{
+    font-size: 1.3rem;
+    font-weight:600;
+}

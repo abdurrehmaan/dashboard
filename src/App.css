@@ -1,0 +1,22 @@
+.sidebar{
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* border: 2px solid black; */
+    z-index: 10;
+}
+
+.rightside{
+    height: 100vh;
+}
+
+.header{
+    height: 20vh;
+    background-color: #F6F9F9;
+}
+
+.content{
+    height: 80vh;
+    background-color: #F6F9F9;
+}
