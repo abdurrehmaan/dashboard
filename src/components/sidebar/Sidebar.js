@@ -13,7 +13,7 @@ import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 // importing Router and switch and link
 import {Route,Link,Switch} from 'react-router-dom'
 
-export default function Sidebar() {
+export default function Sidebar({getOption}) {
     return (
         <div className="d-flex justify-content-center ">
             
@@ -25,12 +25,14 @@ export default function Sidebar() {
                     </div>
                 </a></li>
                 {/* menu */}
-                <li><DashboardIcon className="mx-2" /><a>Dashboard</a></li>
-                <li><CalendarTodayOutlinedIcon className="mx-2" /><a>Scheduler</a></li>
-                <li><PersonAddIcon className="mx-2" /><a>Patients</a></li>
+                <li onClick={()=>{getOption("Dashboard")}}><DashboardIcon className="mx-2" /><a>Dashboard</a></li>
+                <li onClick={()=>{getOption("Scheduler")}}><CalendarTodayOutlinedIcon className="mx-2" /><a>Scheduler</a></li>
+                <li onClick={()=>{getOption("Patients")}}><PersonAddIcon className="mx-2" /><a>Patients</a></li>
                 <li><PaymentIcon className="mx-2" /><a>Payments</a></li>
                 <li><AlternateEmailIcon className="mx-2" /><a>Contact Us</a></li>
             </ul>
         </div>
     )
 }
+
+

@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React,{useState} from 'react'
 import './App.css'
 // importing sidebar components by its path
 import Sidebar from '../src/components/sidebar/Sidebar'
@@ -12,13 +13,17 @@ import Patients from './components/content/Patients';
 
 
 function App() {
+  const [option, setoption] = useState("Dashboard")
+  const getOption=(item)=>{
+    setoption(item);
+  }
   return (
     <div className="App">
       <div className="container-fluid bg-sucss">
         <div className="row">
           {/* sidebar section */}
           <div className="sidebar col-md-2 col-12 d-flex justify-content-md-end justify-content-center">
-            <Sidebar />
+            <Sidebar getOption={getOption} />
           </div>
           <div className="rightside col-md-10 flex-column">
             {/* header section */}
@@ -27,7 +32,12 @@ function App() {
               </div>
               {/* content section */}
               <div className="row content">
-                <Scheduler1 />
+                {(option==="Dashboard" && <Dashboard/>)}
+                {(option==="Scheduler" && <Scheduler1/>)}
+                {(option==="Patients" && <Patients/>)}
+                
+
+                
               </div>
           </div>
         </div>
